@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form.assignment</title>
+</head>
+<div>
+    <style>
+        .active:link {
+            background-color: cornflowerblue;
+        }
+
+        .active:visited {
+            background-color: mediumseagreen;
+        }
+
+        .active {
+            color: black
+        }
+
+        .active {
+            text-decoration: none;
+        }
+    </style>
+</div>
+
+<body>
+    <div>
+        <a class="active" href="form1.html">Step1: Account</a>
+        <a class="active" href="form2.html">Step2: Peronal Details</a>
+        <a class="active" href="form3.html">Step3: Your Review</a>
+    </div>
+    <form action="server.html"></form>
+    <fieldset>
+        <legend>Account</legend>
+
+        <label>Email Address:<br />
+            <input type="email" placeholder="enter email" name="email" required />
+        </label><br />
+        <label>Password:<br />
+            <input type="password" placeholder="enter password" name="password" required/>
+        </label><br />
+        <label>Confirm Password:<br />
+            <input type="password" placeholder="confirm password" name="confirmed password" required /> </label><br />
+        <a href="index.html"><img src="images/back.png" alt="back.img" height="40" width="100" /></a>
+        <a href="form2.html"><img src="images/next.png" alt="next.img" height="40" width="100" /></a>
+    </fieldset>
+
+    </form>
+</body>
+</html>

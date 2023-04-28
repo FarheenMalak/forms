@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form.assignment</title>
+</head>
+<div>
+    <style>
+        .active:link {
+            background-color: rgb(73, 124, 219);
+        }
+
+        .active:visited {
+            background-color: rgb(82, 185, 128);
+        }
+
+        .active {
+            color: black
+        }
+
+        .active {
+            text-decoration: none;
+        }
+    </style>
+</div>
+
+<body>
+    <div>
+        <a class="active" href="form1.html">Step1: Account</a>
+        <a class="active" href="form2.html">Step2: Peronal Details</a>
+        <a class="active" href="form3.html">Step3: Your Review</a>
+    </div>
+    <form action="server.html">
+        <fieldset>
+            <legend>Your Review</legend>
+
+            <label>How did you hear about us?<br />
+                <select name="review">
+                    <option Value="good">Good</option>
+                    <option Value="notgood">Not good</option>
+                    <option Value="best" selected>best</option>
+                    <option Value="don'tknow">Don't know</option>
+                </select>
+            </label><br />
+            <label>Would you visit again?<br />
+                <input type="radio" name="visit review" value="yes" checked />Yes
+                <input type="radio" name="visit review" value="No" />No
+                <input type="radio" name="visit review" value="Maybe" />Maybe
+            </label><br />
+            <label>Comments:<br />
+                <textarea name="comments" columns="10" rows="6">Enter your Comments</textarea> </label><br />
+            <label>Documents:<br />
+                <input type="file" name="file" /><br />
+                <input type="checkbox" name="emalsignup" checked />
+                <label>Sign me up for e-mail
+
+                </label><br />
+                <a href="form2.html"><img src="images/back.png" alt="back.img" height="40" width="100" /></a>
+                <button><a href="server.html"><img src="images/submit.png" alt="submit.img" height="40"
+                            width="100" /></a></button>
+        </fieldset>
+
+    </form>
+</body>
+</html>

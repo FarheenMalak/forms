@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form.assignment</title>
+</head>
+<div>
+    <style>
+        .active:link {
+            background-color: cornflowerblue;
+        }
+
+        .active:visited {
+            background-color: mediumseagreen;
+        }
+
+        .active {
+            color: black
+        }
+
+        .active {
+            text-decoration: none;
+        }
+    </style>
+</div>
+
+<body>
+    <div>
+        <a class="active" href="form1.html">Step1: Account</a>
+        <a class="active" href="form2.html">Step2: Peronal Details</a>
+        <a class="active" href="form3.html">Step3: Your Review</a>
+    </div>
+    <form action="server.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>First Name:<br />
+                <input type="text" placeholder="enter first name" name="f.name" required />
+            </label><br />
+            <label>Last Name:<br />
+                <input type="text" placeholder="enter last name" name="lastname" required />
+            </label><br />
+            <label>CNIC:<br />
+                <div>
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    -
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+                    -
+                    <input type="text" name="cnic num" maxlength="1" size="1" />
+            </label></div><br />
+            <a href="form1.html"><img src="images/back.png" alt="back.img" height="40" width="100" /></a>
+            <a href="form3.html"><img src="images/next.png" alt="next.img" height="40" width="100" /></a>
+        </fieldset>
+
+    </form>
+</body>
+</html>
